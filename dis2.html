@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute or Scary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="scary-page">
+    <div class="page-wrapper">
+        <header>
+            <h1>Spooky Site</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internal.html">Pumpkin</a></li>
+                <li><a href="dis2.html">Scary</a></li>
+                <li><a href="">Monsters</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 id="content-title">Cute and Cuddly</h2>
+            <button id="scary-button" type="button" onclick="toggleScary()">Show Scary Monsters</button>
+            <section id="cute-content" class="image-gallery">
+                <img src="cute1.JPG" alt="Cute and cuddly animal">
+                <img src="cute2.jpg" alt="Another cute and cuddly animal">
+            </section>
+            <section id="monster-content" class="image-gallery" hidden>
+                <img src="monster1.jpeg" alt="Scary monster">
+                <img src="monster2.jpeg" alt="Another scary monster">
+            </section>
+        </main>
+        <footer>
+            <p>Halloween Website</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
